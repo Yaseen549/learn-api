@@ -15,33 +15,24 @@ https://api.syberstar.com/
 
 ```
 https://api.syberstar.com/{Path}
-```
-Eg:
 
+Eg: https://api.syberstar.com/quotes
 ```
-https://api.syberstar.com/quotes
-```
+
 <h2>Parameters</h2>
 
 ```
 https://api.syberstar.com/{Path}?key=value
+
+Eg: https://api.syberstar.com/quotes?contains=computer
 ```
 
-Eg:
-
-```
-https://api.syberstar.com/quotes?contains=computer
-```
 <h4>- Multiple Parameters</h4>
 
 ```
 https://api.syberstar.com/{Path}?key=value&key=value
-```
 
-Eg:
-
-```
-https://api.syberstar.com/quotes?contains=computer&category=programming
+Eg: https://api.syberstar.com/quotes?contains=computer&category=programming
 ```
 
 <h2>Authentication</h2>
